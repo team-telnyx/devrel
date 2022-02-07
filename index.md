@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to Telnyx Developer Relations 
 
-You can use the [editor on GitHub](https://github.com/team-telnyx/devrel/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can find the latest news and happenings in DevRel here. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To maintain and preview the content for your website in Markdown files.
+
+Here is a short tutorial for the same, learn some markdown while we work on getting more content for you all :)
 
 ### Markdown
 
