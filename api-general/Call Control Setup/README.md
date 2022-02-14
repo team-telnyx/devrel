@@ -56,8 +56,8 @@ Collection Name -> Add Request
 ```
 ![Postman](img/postmanAddRequest.png)
 
-This opens a New Project window
-- provide desired name, type of request(POST) with the [API URL] (https://api.telnyx.com/v2/calls) and add the following JSON data:
+This opens a New request window
+- provide desired name, type of request(POST) with the [API URL](https://api.telnyx.com/v2/calls) and add the following JSON data:
 ```json
 {
 
