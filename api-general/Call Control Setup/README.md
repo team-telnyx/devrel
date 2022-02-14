@@ -3,7 +3,7 @@
 
 ## _Make an Outbound Call from Call Control to Your Cellphone_
 
-![Telnyx](img/logo-dark.png)
+![Telnyx](/assets/img/logo-dark.png)
 </div>
 
 Tutorial demonstrating Telnyx Call Control API
