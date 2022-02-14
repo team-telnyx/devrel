@@ -84,7 +84,7 @@ Replace the to_number, from_number and connection_id with the values we acquired
 
 ![Call Initiated Hookbin](img/callInitiated.png)
 
-If you refresh the hookbin URL after each event occurence such as call Dial, call answered and call ended, you should be able to see all those events over there respectively in the ordeer of occurence. 
+If you refresh the hookbin URL after each event occurence such as call Dial, call answered and call ended, you should be able to see all those events over there respectively in the order of occurence. 
 
 | Call Action | Hookbin Event Type |
 | ------ | ------ |
