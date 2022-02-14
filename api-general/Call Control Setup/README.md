@@ -15,6 +15,10 @@ Tutorial demonstrating Telnyx Call Control API
 -   Ring my mobile number from the newly purchased number & call control
 -   Investigate the webhooks
 
+> :memo: `Note:` If you prefer video over text, [here](https://www.loom.com/share/02978440734d4f4192c98eaf081a0a01) is an awesome demonstration of Call Control:
+
+[![Call Control Setup](https://cdn.loom.com/sessions/thumbnails/02978440734d4f4192c98eaf081a0a01-with-play.gif)](https://www.loom.com/share/02978440734d4f4192c98eaf081a0a01 "Call Control Setup")
+
 ## Requirements 
 - A [Telnyx account](https://telnyx.com/sign-up) to use their Call Control web API. If you are new to Telnyx, create an [account](https://telnyx.com/sign-up) now and get 10$ credit to explore Telnyx platform.
 - [Hookbin](https://hookbin.com/) for creating unique endpoints to inspect HTTP requests.
@@ -72,7 +76,8 @@ This opens a New request window
 
 ![Dial Request Call](img/dialRequestDetails.png)
 
-Replace the to_number, from_number and connection_id with the values we acquired before. 
+- Replace the to_number, from_number and connection_id with the values we acquired before and click **Send**. 
+- You should now a receive a call to your mobile number from Telnyx number. 
 
 ##### Webhook Inspection with Hookbin
 [Hookbin](https://hookbin.com/) is a free service that enables you to collect, parse, and view HTTP requests. 
@@ -92,9 +97,5 @@ If you refresh the hookbin URL after each event occurence such as call Dial, cal
 | Call answered by Receiver | call.answered |
 | Call ended | call.hangup |
 
-
-If you are more of a visual person, please watch the demonstration [here](https://www.loom.com/share/02978440734d4f4192c98eaf081a0a01)
-
-[![Call Control Setup](https://cdn.loom.com/sessions/thumbnails/02978440734d4f4192c98eaf081a0a01-with-play.gif)](https://www.loom.com/share/02978440734d4f4192c98eaf081a0a01 "Call Control Setup")
 
 You are now +1 step forward in your journey to becoming a Telnyx Champion, Wohooo !!!! 
