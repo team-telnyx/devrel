@@ -109,22 +109,22 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
         * Provide a suitable name and description
 
         <img src='./img/rule_name_desc.PNG' width="800"/>
-        ![Rule_name_desc](./img/rule_name_desc.PNG)
         
         * Enter rule query
             ``` mysql
                 SELECT * from "iot"    
             ```
 
-        ![Rule_query](/img/rule_query.PNG)
+        <img src='./img/rule_query.PNG' width="800"/> 
 
         * Next click on `Add Action`.
         
-        ![Rule_add_action](/img/rule_add_action.PNG)
+        <img src='./img/rule_add_action.PNG' width="800"/> 
         
         * Out of the list of actions that opens up, select ‘Send a message to a Lambda function’, and then click on ‘Configure action’. 
 
-        ![Rule_add_lambda](/img/rule_add_lambda.PNG)
+        
+        <img src='./img/rule_add_lambda.PNG' width="800"/> 
 
         * Select the lambda function you created and click `Add Action`.
 
@@ -132,7 +132,7 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
 
         * Lastly, enable the rule
 
-        ![Rule_enable](/img/rule_enable.PNG)
+          <img src='./img/rule_enable.PNG' width="800"/> 
 </p></details>
 
 ___
