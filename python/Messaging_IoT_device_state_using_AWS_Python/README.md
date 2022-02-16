@@ -2,7 +2,7 @@
 
 # Messaging IoT Device state using AWS, Python and Telnyx
 
-![Telnyx](/img/logo-dark.png)
+![Telnyx](https://github.com/team-telnyx/devrel/blob/number_lookup/assets/img/logo-dark.png)
 
 An IoT use case where an IoT device sends data to the AWS cloud. And notifies anomaly to concerned individuals using Telnyx messaging.
 
