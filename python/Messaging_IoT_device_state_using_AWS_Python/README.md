@@ -108,7 +108,8 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
         * Go to the AWS IoT Core Console, and from the left menu, click on the ‘Act’ dropdown, and click on ‘Rules’. Click on 'Create'
         * Provide a suitable name and description
 
-        ![Rule_name_desc](/img/rule_name_desc.PNG)
+        <img src='./img/rule_name_desc.PNG' width="800"/>
+        ![Rule_name_desc](./img/rule_name_desc.PNG)
         
         * Enter rule query
             ``` mysql
