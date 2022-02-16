@@ -21,7 +21,7 @@ An IoT use case where an IoT device sends data to the AWS cloud. And notifies an
 
 <div align="center">
 
-![IoT](/img/architecture.PNG)
+![IoT](https://github.com/team-telnyx/devrel/blob/number_lookup/python/Messaging_IoT_device_state_using_AWS_Python/img/architecture.PNG)
 
 </div>
 
