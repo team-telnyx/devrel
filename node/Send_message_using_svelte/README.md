@@ -27,7 +27,7 @@ A simple web based application for sending SMS using [Svelte framework](https://
  1. Sign up for Telnyx account
     > Set up a developer account with Telnyx from https://telnyx.com/sign-up.
 
- 2. Obtain a number with SMS capabilities for auto-responder app
+ 2. Obtain a number with SMS capabilities for the app
     > After creating an account and signing in, you need to [acquire a number](https://portal.telnyx.com/#/app/numbers/search-numbers) for the application. Search for a number by selecting your preferred 'Region' or 'Area Code'.
     
     > Make sure that the number supports SMS feature(Very Important!) as it will be used by our application.
