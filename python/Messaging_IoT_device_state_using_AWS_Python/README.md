@@ -95,7 +95,7 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
         * You need `root-CA.crt`, `THING_NAME.cert.pem` and `THING_NAME.private.key` from above
     
  2. Create [Lambda](https://aws.amazon.com/lambda/) function
-    * Follow the steps mentioned [here]() for creating Python based lambda function.
+    * Follow the steps mentioned [here](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html) for creating Python based lambda function.
     * Copy and paste the code from [lambda_function.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/lambda_function.py) file into the AWS consoles `lambda_function.py` file
     * Substitute below mentioned values with the values acquired from `Step One` - 
         * `TELNYX_PHONE_NUMBER`, 
