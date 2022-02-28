@@ -2,7 +2,7 @@
 
 # Auth0 Verify API code
 
-![Telnyx](https://github.com/team-telnyx/devrel/blob/number_lookup/assets/img/logo-dark.png)
+![Telnyx](https://github.com/team-telnyx/devrel/blob/main/assets/img/logo-dark.png?raw=true)
 
 The code lets developer use Telnyx Verify API with Auth0 to send a MFA SMS.
 

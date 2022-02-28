@@ -2,7 +2,7 @@
 
 # Send messages using Svelte and Telnyx API
 
-![Telnyx](https://github.com/team-telnyx/devrel/blob/number_lookup/assets/img/logo-dark.png)
+![Telnyx](https://github.com/team-telnyx/devrel/blob/main/assets/img/logo-dark.png?raw=true)
 
 A simple web based application for sending SMS using [Svelte framework](https://svelte.dev/) and [Telnyx API](https://telnyx.com).
 
