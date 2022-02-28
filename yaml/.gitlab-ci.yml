@@ -1,0 +1,39 @@
+image: curlimages/curl
+
+stages:
+  - deploy
+  - alert
+
+deploy:
+  stage: deploy
+  script:
+    - curl localhost:$SOMEPORT # comment this line for successfull scenario
+    - echo "Passing condition" # comment this line for fail scenario
+    
+
+.alert: &alert
+  stage: alert
+  script:
+    - |
+        curl -X POST \
+        --header "Content-Type: application/json" \
+        --header "Authorization: Bearer ${TELNYX_API_KEY}" \ 
+        --data "{ \
+          \"from\": \"${SENDER_NUMBER}\", \
+          \"to\": \"${RECEIVER_NUMNER}\", \
+          \"text\": \"The CI pipeline in gitlab ${CI_STATE}\" \
+        }" \
+        ${TELNYX_URL} 
+
+alert_success:
+  before_script:
+    - export CI_STATE=SUCCEDED
+  when: on_success
+  <<: *alert
+
+alert_failure:
+  before_script:
+    - export CI_STATE=FAILED
+  needs: ["deploy"]
+  when: on_failure
+  <<: *alert
