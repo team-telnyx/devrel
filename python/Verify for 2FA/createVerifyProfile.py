@@ -1,4 +1,3 @@
-from subprocess import call
 import telnyx
 import config
 
@@ -12,7 +11,7 @@ createVerifyProfile = telnyx.VerifyProfile.create(
   messaging_enabled = True
 )
 
-#Update verify Profile with custom messaging template, call template
+#Update verify Profile with custom messaging template
 verifyProfileId = createVerifyProfile['id']
 print(verifyProfileId)
 verifyProfile = telnyx.VerifyProfile.retrieve(verifyProfileId)
