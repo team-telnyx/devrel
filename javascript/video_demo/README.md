@@ -23,19 +23,19 @@ In this tutorial, we will explore how to use telnyx video sdk using the followin
 - After obtaining the API key from the above step, it is now time to consume it to create a new video room id using which you can join a telnyx video meet conference call. 
 - Head over to [Developer Docs API V2 -> Video -> Rooms -> Create a room](https://developers.telnyx.com/docs/api/v2/video/Rooms#CreateRoom) and fetch commands for creating a Room using `createRoom`
 - Based on the documentation, we do not have any required parameters but just let's use `enable_recording` set a limit of `max_participants`
-![Create Rooms API](img/createRoom.png)
+![Create Rooms API](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/createRoom.png?raw=true)
 - In Postman, Click Import
 ```
 Postman Dashboard -> Import
 ```
 This opens a New Import window
 - Go to Raw text and paste the entire cURL command from [here](https://developers.telnyx.com/docs/api/v2/video/Rooms#CreateRoom) 
-![Create Room cURL](img/cURLCreateRoom.png)
+![Create Room cURL](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/cURLCreateRoom.png?raw=true)
 Click Continue and Import, then go to Header tab and replace `YOUR_API_KEY` with the API key you obtained previously
-![Update API Key](img/apiKeyUpdate.png)
+![Update API Key](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/apiKeyUpdate.png?raw=true)
 Then click Save and provide a relevant name for and save it in respective collection and folder so you can reuse the API call. 
 Once saved, Click Send in Postman and you should get a similar response as shown below:
-![Postman Room Id response](roomId.png)
+![Postman Room Id response](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/roomId.png?raw=true)
  ```json
 {
 
@@ -96,24 +96,24 @@ Save the generated room `id` as you need it to join a video meet conference late
 	1 - `yarn` to install the dependencies.
 
     2 - `yarn dev` will initialize the server.
-	![Meet App Locally Run](img/localRun.png)
+	![Meet App Locally Run](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/localRun.png?raw=true)
 
    3 - Access the `http://localhost:3000`
-	![Telnyx Meet Home Page](img/roomHome.png)
+	![Telnyx Meet Home Page](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/roomHome.png?raw=true)
 
    4 - Click `Join A Room`and fill the input `Room UUID` with your generated `roomId` from previous step 
-   ![Join Room](img/joinRoom.png)
+   ![Join Room](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/joinRoom.png?raw=true)
    
    **OR**
    you can go to [http://localhost:3000/Rooms/list](http://localhost:3000/Rooms/list) and then select one of the rooms created using your `API_KEY` if you created multiple rooms. Doing this will autofill the `Room UUID` for you. 
-   ![Rooms List](img/roomsList.png)
-   ![Join Rooms List](img/joinRoomList.png)
+   ![Rooms List](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/roomsList.png?raw=true)
+   ![Join Rooms List](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/joinRoomList.png?raw=true)
    
    Either way you choose, click on the `Unmute mic` and `Start video` icons to give respective permissions for telnyx meet to access audio and video.
 
    5 - Click on `Join Room` button to access the meeting.
    You should see a similar screen with various options as follows:
-   ![Joined Meeting](img/joinedRoom.png)
+   ![Joined Meeting](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/joinedRoom.png?raw=true)
    
 ### Deploy on Vercel
 You can deploy by directly importing [this project] to [Vercel](https://vercel.com/) 
@@ -121,9 +121,9 @@ You can deploy by directly importing [this project] to [Vercel](https://vercel.c
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/team-telnyx/telnyx-meet.git&project-name=telnyx-meet&repository-name=telnyx-meet&env=TELNYX_API_HOST,TELNYX_API_KEY&envDescription=Required%20to%20connect%20the%20app%20with%20TelnyxMeet&envLink=https://github.com/team-telnyx/telnyx-meet/#step-4-set-up-environment-variables)
 
 - After you click Deploy, Select `Git Scope` from the drop down based on where you would like to create a clone of the `telnyx-meet` git repo. Check private Git Repository box if you would like make your repo private. 
-![Git Repo Vercel](img/gitRepoVercel.png)
+![Git Repo Vercel](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/gitRepoVercel.png?raw=true)
 - Provide required environment variables values copying from the `.env.local` file 
--![Environment Variables](img/vercelEnvVariables.png)
+-![Environment Variables](https://github.com/team-telnyx/devrel/blob/main/javascript/video_demo/img/vercelEnvVariables.png?raw=true)
 - Click Deploy and after few minutes, you should be directed to a screen with deployment successful message and your app should be live at a `URL` similar to [https://devrel-meet.vercel.app/](https://devrel-meet.vercel.app/) based on the name you provided for the repo.
 
 **OR**
