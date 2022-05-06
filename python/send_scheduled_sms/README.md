@@ -84,6 +84,7 @@ Replace `TELNYX_API_KEY`, `YOUR_TELNYX_NUMBER` and `RECIPIENT_PHONE_NUMBER` with
 - `RECIPIENT_PHONE_NUMBER` is your number
 
 <br>
+
 ```sh
     import datetime
     import telnyx
