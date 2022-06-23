@@ -29,6 +29,6 @@ api_key = '[YOUR API KEY]'
 id = '[ID OF THE PHONE NUMBER TO LOOKUP]'
 ```
 
-
+Make sure you replace the `api_key` and `id` with relevant values. 
 Actual code for traffic type lookup is in [trafficType.py](trafficType.py)
 
