@@ -57,7 +57,7 @@ void loop() {
 - Make sure you have set the serial interface to terminate with carriage return and newline or the AT commands will not be interpreted by the modem.
 - The baud of Serial Monitors should be `115200 baud`
 
-![serial monitor]("/img/serial monitor setup.PNG")
+![serial monitor](https://raw.githubusercontent.com/team-telnyx/devrel/main/arduino/arduino_mkr_gsm_1400/at_commands_wireless_iot/img/sm.PNG)
 
 - Pass the following AT commands
 
