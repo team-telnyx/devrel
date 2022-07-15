@@ -1,0 +1,23 @@
+// baud rate for both Serial ports
+unsigned long baud = 115200;
+
+void setup() {
+  // reset the u-blox module
+  pinMode(GSM_RESETN, OUTPUT);
+  digitalWrite(GSM_RESETN, HIGH);
+  delay(100);
+  digitalWrite(GSM_RESETN, LOW);
+
+  Serial.begin(baud);
+  SerialGSM.begin(baud);
+}
+
+void loop() {
+  if (Serial.available()) {
+    SerialGSM.write(Serial.read());
+  }
+
+  if (SerialGSM.available()) {
+    Serial.write(SerialGSM.read());
+  }
+}
