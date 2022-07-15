@@ -1,5 +1,7 @@
 # AT commands for Arduino MKR GSM 1400 using Telnyx Wireless SIM
 
+![Telnyx](https://github.com/team-telnyx/devrel/blob/main/assets/img/logo-dark.png?raw=true)
+
 AT is the short form of 'attention' in AT command. These commands are used for controlling modem.
 
 ## Hardware Requirment
